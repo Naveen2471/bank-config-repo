@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: customer-service
+    name: CUSTOMER-SERVICE
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/bankdb
+    url: jdbc:postgresql://localhost:5433/customerdb
     username: postgres
-    password: postgres
+    password: Naveen@2471
 
   jpa:
     hibernate:
