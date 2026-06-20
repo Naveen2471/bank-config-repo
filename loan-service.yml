@@ -4,3 +4,7 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/loandb
+    eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
